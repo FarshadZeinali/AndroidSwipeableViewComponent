@@ -1,0 +1,2 @@
+# AndroidSwipeableViewComponent
+AndroidSwipeableViewComponent is a Android view Component
