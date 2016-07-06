@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+>
+
+    <ListView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/list_view"
+              android:divider="#000000"
+              android:dividerHeight="0dp"
+              android:choiceMode="singleChoice"
+              android:listSelector="#ffffff"
+              android:background="#ffffff">
+
+    </ListView>
+
+</LinearLayout>
+

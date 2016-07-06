@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingLeft="15dp"
+              android:paddingTop="20dp"
+              android:paddingRight="15dp"
+              android:paddingBottom="20dp"
+              android:background="#ffffff">
+
+    <com.android.component.view.androidSwipeableViewComponent.SwipeableView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/swipeableView"
+            android:background="#dedede">
+
+        <Button android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:id="@+id/btn_hide"
+                android:text="HIDE"
+                android:background="#ff4c5f"
+                android:textColor="#000000"
+                android:gravity="center"
+        />
+
+        <Button android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:id="@+id/btn_show"
+                android:text="SHOW"
+                android:background="#1de9a4"
+                android:textColor="#000000"
+                android:gravity="center"/>
+
+
+        <RelativeLayout android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="#dedede">
+
+            <ImageView android:layout_width="100dp"
+                       android:layout_height="100dp"
+                       android:id="@+id/img"
+                       android:layout_alignParentTop="true"
+                       android:layout_alignParentLeft="true"
+                       android:src="@drawable/ic_launcher"
+                       android:scaleType="fitXY"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="100dp"
+                      android:id="@+id/txt"
+                      android:layout_toRightOf="@id/img"
+                      android:textColor="#000000"
+                      android:gravity="center"
+                      android:textSize="20dp"
+                      android:textStyle="bold"
+                      android:background="#ececec"/>
+
+        </RelativeLayout>
+
+
+    </com.android.component.view.androidSwipeableViewComponent.SwipeableView>
+
+</LinearLayout>
