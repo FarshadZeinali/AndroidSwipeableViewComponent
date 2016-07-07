@@ -14,3 +14,7 @@ but it is being updated and you can download new version from github.com in futu
 This project is open source.
 
 Email:farshad.zeinaly@gmail.com
+
+![Alt text](/pic1.jpg?raw=true "Screenshot1")
+![Alt text](/pic2.jpg?raw=true "Screenshot2")
+![Alt text](/pic3.jpg?raw=true "Screenshot3")
